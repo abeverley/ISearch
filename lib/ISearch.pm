@@ -15,11 +15,11 @@ get '/search' => sub {
     {
         my @data = (
             {
-                type => 'person',
+                type => 'user',
                 value => 'Helen Walker',
             },
             {
-                type => 'person',
+                type => 'user',
                 value => 'Henley Parker',
             },
             {
@@ -27,15 +27,19 @@ get '/search' => sub {
                 value => 'ISMS Manager',
             },
             {
-                type => 'documentation',
+                type => 'manual',
                 value => 'Help Section',
+            },
+            {
+                type => 'document',
+                value => 'Acceptable Use Policy',
             },
             {
                 type => 'asset',
                 value => 'Data Centre',
             },
             {
-                type => 'risk_assessment',
+                type => 'risk',
                 value => 'Cloud services risk assessment',
             },
             {
